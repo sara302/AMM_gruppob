@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Cofanetti Serie Tv - Aggiungi nuovo prodotto</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name='keywords' content='serietv, cofanetti, dvd, regali'>
+        <meta name='author' content='Sara Concas'>
+        <meta name='description' content='Compra-vendita online cofanetti serie tv-Inserimento nuovo prodotto'>
+    <link rel="stylesheet" type="text/css" href="style.css"
+ media="screen">
+    </head>
+    <body>
+        
+        <div class="header">
+            <nav> 
+                <a href="descrizione.html">Homepage</a>
+                <a href='login.html'>Login</a>
+                
+            <a href="cliente.html">Clienti</a>
+        </nav>
+        
+        <h1>Vendita online cofanetti serie tv </h1>
+        </div>
+  
+        <div class="form">
+<h2 class="log">Inserisci un nuovo oggetto</h2>
+<form method="post" action="inserimento_oggetto">
+<label for="nome_ogg">Titolo</label>
+<input name="nome_ogg" id="nome_ogg" type="text"
+       value="Titolo Serie Tv"/>
+<label for="imm">Url immagine descrittiva</label>
+<input name="imm" id="imm" type="url"/>
+<label for="descrizione">Descrizione</label>
+<textarea rows="5" cols="20" name="descrizione" id="descrizione" >
+Descrizione oggetto</textarea>
+<label for="prezzo">Prezzo(euro)</label>
+<input name="prezzo" id="prezzo" type="number"/>
+<label for="quantita">Numero oggetti disponibili</label>
+<input name="quantita" id="quantita" type="number"/>
+<p><button type="submit">Invia </button></p>
+</form>
+</div>
+    </body>
+</html>
