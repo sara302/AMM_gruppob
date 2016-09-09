@@ -1,0 +1,8 @@
+Entità:
+cliente(id,username, password, nome, cognome, saldo)
+venditore(id, username, password, nome, cognome, saldo, num_oggetti)
+cofanetto(id, genere, titolo, stagione, trama, prezzo, num_pezzi, url_immagine)
+
+Relazioni:
+cofanetto-venditore molti a molti  attributi: num
+cofanetto-cliente uno a molti  

@@ -1,0 +1,300 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11-apr-2016, 8.58.16
+    Author     : ASSO
+*/
+
+*{
+    
+    color:black;
+    font-family:Comic Sans, Georgia, Serif;
+    line-height: 25px;
+    border-width:2px;
+   border-color:blueviolet;
+   list-style-type:none;
+  }
+  body{
+      background-color:lavender;
+  }
+   h1{
+       
+       color:slateblue;
+       font-size:3.5em;
+       font-style:italic;
+       font-weight:bold;
+        text-align:center;
+      
+   }
+   
+   #titolo {
+      
+        position:relative;
+   }
+        @media only screen and (min-width: 1024px){
+        h1::before{
+            content: url('imm/homer.png');
+            float:left;
+        }
+        }
+        .link{
+            text-align:center;
+            font-weight:bold;
+            font-size:1.5em;
+            word-spacing:40px;
+           
+            height:10px;
+        }
+        h2{
+            color:slateblue;
+            font-size:2.5em;
+            font-weight:bold;
+            align-content:center;
+        }
+        h3{
+            color:slateblue;
+            font-size:1.5em;
+            }
+            
+            .tit{
+                text-decoration: underline;
+            }
+            h4{
+                color:slateblue;
+            font-size:1.2em;
+                
+            }
+           
+       #side{
+                font-size:1.2em;
+                font-style:italic;
+                font-weight:bold;
+                color:lightblue;
+               
+            }  
+            
+        #descr{
+                font-size:1.1em;
+            }
+            
+            
+            
+            
+            .elenco_destra {
+                position:relative;
+              
+                 text-align:center;
+            }
+        a:link{
+                color: darkslateblue;
+                text-decoration:none;
+            }
+        a:visited{
+                color:blueviolet;
+                text-decoration:none;
+               }
+        a:hover{
+                   text-decoration:underline;
+               }
+               
+               #elenco{
+                   position:absolute;
+                   top:150px;
+               }
+              
+             
+               .header{
+                   position: absolute;
+                   width:100%;
+                  top:0%;
+                
+                     
+               } 
+               
+               .bentornato {
+                   position:relative;
+                   font-style:italic;
+                   left:23%;
+               }
+               
+               .error {
+                   position:relative;
+                   left:23%;
+                   color:red;
+                  
+               }
+               
+               .saldo {
+                   position:relative;
+                   left:65%;
+               }
+               
+               .form2.err{
+                    color:red;
+               }
+               .nav{
+                   position:absolute;
+                   width:100%;
+                   top:30%;
+                   height:4%;
+                    background-color: silver;
+                  
+                   
+               }
+              
+               @media only screen and (min-width: 480px){
+              .sidebar{
+                 
+                  position:absolute;
+                  
+                  text-align:left;
+                   top:45%;
+                   border-bottom:none;
+                   border-left-color:transparent;
+                  
+              }
+               }
+               
+                @media only screen and (max-width: 480px) {
+                   .sidebar{
+                       display:none;
+                   }
+                   .content{
+                      
+                  text-align:center;
+                  
+                    
+                   } }
+                @media only screen and (min-width: 480px){
+               .content{
+                  
+                   position:absolute;
+                       width:77%;
+                       top:35%;
+                      
+                      margin-left:21%;
+                   border-right:none;
+                   border-bottom:none;
+                  
+                  
+                  
+               }
+               }
+               
+               input:focus{
+                   border-style:solid;
+                   border-color:blue;
+               }
+          
+           #pss{
+                   padding-right:45px;
+               }
+               
+              
+               .form{
+                   position:absolute;
+                   
+                   text-align: center;
+                   top:45%;
+                   left:45%;
+                   border-left:none;
+                   border-right:none;
+                   border-bottom:none;
+                   
+               }
+               .form2{
+                   position:absolute;
+                   
+                   text-align: center;
+                   top:50%;
+                   left:38%;
+                   border-left:none;
+                   border-right:none;
+                   border-bottom:none;
+                  
+               }
+            
+               ul{
+                   display:list-item;
+                    list-style-image: url('/imm/freccia.png');
+                    
+               }
+               
+               .log{
+                   display:block;
+               }  
+               label{
+                   color:slateblue;
+                   font-size:1.1em;
+                   font-weight:bold;
+                   display:block;
+               }
+              
+               label::after, label::before {
+               content: '\A';
+               white-space: pre;
+               }
+            
+               button{
+                color:slateblue;
+                   font-weight:bold;
+                   font-size:1.1em;
+               }
+            
+               
+           
+           button:hover{
+           background-color:lightblue;
+           }
+     
+           #tabella{
+           
+               background-color:lavender;
+                border-collapse:collapse;
+           }
+           th{
+               font-size:1.2em;
+               color:blueviolet;
+               padding-bottom:30px;
+                padding:10px;
+              border-style:solid;
+            }
+            td{
+                   border-style:solid;
+                 
+            }
+               tr{
+                background-color:lightblue;
+                
+                text-align:center;
+                }
+                
+                .tit{
+                    font-style: italic;
+                     font-weight:bold;
+                }
+        
+                
+           .disp {
+                background-color:lavender;
+            }       
+            
+            .err{
+               color:red;
+               position:relative;
+                text-align:center;
+          top:230px;
+                 
+            font-weight:bold;
+            }
+            
+            .ben {
+                position:relative;
+                text-align:center;
+          top:230px;
+                 
+            font-weight:bold;
+            }
